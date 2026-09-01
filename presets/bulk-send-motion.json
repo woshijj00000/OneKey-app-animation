@@ -1,0 +1,9 @@
+{
+  "title": "Bulk send",
+  "recipientCount": 4,
+  "amountPerAddress": 0.1,
+  "backgroundTop": "#F0F1FF",
+  "backgroundBottom": "#F9F7FF",
+  "accentColor": "#2F6BFF",
+  "reducedMotion": false
+}

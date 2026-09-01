@@ -1,0 +1,27 @@
+{
+  "videoSrc": "recordings/bulk-send-h264.mp4",
+  "backgroundTop": "#eef0ff",
+  "backgroundBottom": "#dfe3ff",
+  "tapColor": "#53a9ff",
+  "phoneScale": 0.94,
+  "volume": 0,
+  "showTapEffects": true,
+  "segments": [
+    {"start": 0, "end": 34.4, "speed": 2.5},
+    {"start": 34.4, "end": 79.4, "speed": 3},
+    {"start": 79.4, "end": 85.2, "speed": 1.5},
+    {"start": 109, "end": 119.9, "speed": 2}
+  ],
+  "taps": [
+    {"time": 1.2, "x": 0.82, "y": 0.16},
+    {"time": 6.8, "x": 0.5, "y": 0.89},
+    {"time": 9.7, "x": 0.5, "y": 0.89},
+    {"time": 11.8, "x": 0.5, "y": 0.89},
+    {"time": 16.7, "x": 0.78, "y": 0.59},
+    {"time": 20.7, "x": 0.64, "y": 0.35},
+    {"time": 23.1, "x": 0.5, "y": 0.89},
+    {"time": 25.4, "x": 0.5, "y": 0.89},
+    {"time": 27.7, "x": 0.5, "y": 0.89},
+    {"time": 33.2, "x": 0.77, "y": 0.89}
+  ]
+}

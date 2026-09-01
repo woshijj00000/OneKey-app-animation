@@ -1,0 +1,9 @@
+{
+  "backgroundTop": "#05E000",
+  "backgroundBottom": "#05D6A0",
+  "tapColor": "#00E000",
+  "tapRingColor": "#B9F4BA",
+  "interfaceScale": 1,
+  "showTapEffects": true,
+  "showLogoOutro": true
+}
