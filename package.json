@@ -31,6 +31,8 @@
     "render": "remotion render BulkSendFigmaUIOnlySquare out/bulk-send-figma-ui-only.mp4",
     "render:test-flow": "remotion render BulkSendTestSocialSquare out/bulk-send-test-social.mp4",
     "render:bulk-copy": "remotion render BulkCopyAddressesSocialSquare out/bulk-copy-addresses-social.mp4",
+    "render:transfer-privacy": "remotion render OneKeyTransferAddressbookPrivacySquare out/onekey-transfer-addressbook-zh-v23-privacy-mask.mp4",
+    "render:transfer-full-spec": "remotion render OneKeyTransferAddressbookFullSpecSquare out/onekey-transfer-addressbook-zh-v24-full-spec.mp4",
     "render:motion": "remotion render BulkSendMotionSquare out/bulk-send-motion-square.mp4",
     "render:recording": "remotion render PhoneProductDemoSquare out/bulk-send-square-demo.mp4",
     "generate:audio": "node scripts/generate-audio.mjs",

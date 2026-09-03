@@ -2,15 +2,22 @@
 
 中文复用与交接说明请阅读 [REUSE_GUIDE_ZH.md](./REUSE_GUIDE_ZH.md)。
 给 Codex 的标准任务提示词请阅读 [PROMPT_TEMPLATE_ZH.md](./PROMPT_TEMPLATE_ZH.md)。
+每个视频交付前必须执行 [REVIEW_CHECKLIST_ZH.md](./REVIEW_CHECKLIST_ZH.md) 的两道 Review Gate；任一适用项目失败时不得交付。
 
 Reusable 1080×1080 / 60fps app interface demo made with Remotion. The default
 composition uses the original Figma UI exports as its visual source, without
 intro copy, scene labels, or a realistic phone frame.
 
-The UI is bottom-aligned over a bright-green-to-mint gradient. Its click cue
-matches the Figma UI-only reference edit: a pale-green outer circle and green
-inner circle compress, rebound, and release a short ten-ray burst. The edit
-ends on the user-provided OneKey logo outro.
+The UI is bottom-aligned over a bright-green-to-mint gradient. Its click cue is
+a pale-green outer circle with a green inner circle that appears at the target,
+compresses, rebounds, and disappears without rays or expanding rings. Optional
+single-line callout bubbles pop in beside selected targets, remain readable,
+and disappear before the click. The edit ends on the user-provided OneKey logo
+outro.
+
+Sensitive UI values can be covered with the reusable
+`src/components/PrivacyMask.tsx` layer. It uses a solid `#F1F1F3` rounded
+rectangle with no blur, pixelation, border, shadow, or transparency.
 
 ## Compositions
 
@@ -27,7 +34,7 @@ npm run dev
 ```
 
 Open `BulkSendFigmaUIOnlySquare` in Remotion Studio to preview the UI-only edit.
-The reusable preset exposes the green pointer / click-burst color through
+The reusable preset exposes the green click-dot color through
 `tapColor`.
 
 ## Render
