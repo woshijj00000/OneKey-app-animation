@@ -7,14 +7,23 @@
 - 画布：1080 × 1080
 - 帧率：60fps
 - 当前时长：12 秒（720 帧）
-- 背景：绿色到浅绿色渐变
-- 界面：底部对齐，无真实手机外框
+- 背景：固定使用 `public/source/onekey-gradient-39db00-00c9a5.png`，由顶部 `#39DB00` 渐变到底部 `#00C9A5`
+- 界面：水平居中，顶部距离画布 160px，顶部圆角 100px，无真实手机外框
 - 点击效果：浅绿色外圆、绿色内圆、双层错峰弹簧回弹，无发散元素
 - 重点气泡：点击前在目标附近 Q 弹出现，使用小尖角指向目标
 - 结尾：OneKey Logo
 - 主合成：`BulkSendTestSocialSquare`
 - 主源码：`src/test-flow/TestFlowComposition.tsx`
 - 默认输出：`out/bulk-send-test-social.mp4`
+
+### 固定品牌版式规则
+
+所有新 Composition 必须导入 `src/config/onekeyBrandRules.ts`，不要在各自文件中重新猜测或定义以下数值：
+
+- 背景底图：`public/source/onekey-gradient-39db00-00c9a5.png`。
+- UI：`left: 144px`、`top: 160px`、`width: 792px`、`height: 950px`、顶部圆角 `100px`。
+- 结尾 Logo：`public/brand/onekey-app-user-fixed.png`，固定为 `left: 190px`、`top: 465px`、`width: 700px`、`height: 143px`。Logo 只能淡入淡出，不做位移和缩放。
+- 气泡：底色及尖角统一为 `#031F00`，文字统一为 `#DBFFD7`；替换旧气泡时必须连同旧底色、尖角和阴影一起完全覆盖。
 
 ## 2. 项目中最重要的文件
 

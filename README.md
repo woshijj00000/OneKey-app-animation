@@ -8,12 +8,15 @@ Reusable 1080×1080 / 60fps app interface demo made with Remotion. The default
 composition uses the original Figma UI exports as its visual source, without
 intro copy, scene labels, or a realistic phone frame.
 
-The UI is bottom-aligned over a bright-green-to-mint gradient. Its click cue is
+The UI is horizontally centered at a fixed 160px top offset over the approved
+`public/source/onekey-gradient-39db00-00c9a5.png` background. Its top corners
+use a fixed 100px radius. Its click cue is
 a pale-green outer circle with a green inner circle that appears at the target,
 compresses, rebounds, and disappears without rays or expanding rings. Optional
 single-line callout bubbles pop in beside selected targets, remain readable,
 and disappear before the click. The edit ends on the user-provided OneKey logo
-outro.
+outro. The fixed brand values and asset paths live in
+`src/config/onekeyBrandRules.ts` and must be reused by new compositions.
 
 Sensitive UI values can be covered with the reusable
 `src/components/PrivacyMask.tsx` layer. It uses a solid `#F1F1F3` rounded
